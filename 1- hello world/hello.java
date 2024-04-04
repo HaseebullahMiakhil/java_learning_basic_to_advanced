@@ -60,6 +60,39 @@ public class hello {
         //ok but not good for one professional programmer
         int m = 27;
 
+        //Data Types are divided in to two parts:
+        // Primitive Data Types - byte short int float long double boolean char
+        //Non- Primitive Data Types - String , Arrays , Classes
+
+        //Java Type Casting 
+
+        int myint = 9;
+        double mydouble = myint;
+        System.out.println(myint);
+        System.out.println(mydouble);
+
+        double mydoubl = 2.7;
+        int myintdouble = (int)mydoubl;
+        System.out.println(mydoubl);
+        System.out.println(myintdouble);
+
+        //java operators
+
+        int xx = 100 + 200;
+        System.out.println(xx);
+        int yy = 200/100;
+        System.out.println(yy);
+        int xxx = 5-2;
+        System.out.println(xxx);
+        int xxxx = 10 * 10;
+        System.out.println(xxxx);
+        int xxxxx = 5%2;
+        System.out.println(xxxxx);
+
+
+        ///-----------------java string 
+
+
 
     }
 }
