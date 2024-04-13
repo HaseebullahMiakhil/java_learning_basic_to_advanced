@@ -88,8 +88,7 @@ public class hello {
         System.out.println(xxxx);
         int xxxxx = 5%2;
         System.out.println(xxxxx);
-
-
+        
         ///-----------------java string-----------///
 
 
