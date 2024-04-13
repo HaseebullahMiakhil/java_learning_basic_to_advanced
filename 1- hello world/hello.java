@@ -112,6 +112,46 @@ public class hello {
         //    \' \" \\
 
         //---------java math----------//
+        System.out.println(Math.sqrt(25));
+        System.out.println(Math.max(5, 10));
+        System.out.println(Math.min(5, 10));
+        System.out.println(Math.abs(-4));
+        System.out.println(Math.random());
+
+        //--------Java Booleans------///
+        boolean isJavaFun = true;
+        boolean isFishTasty = false;
+        System.out.println(isJavaFun);
+        System.out.println(isFishTasty);
+
+        int numbol1 = 10;
+        int numbol2 = 5;
+        System.out.println(numbol1 > numbol2);
+        System.out.println(numbol1 < numbol2);
+
+        System.out.println(10 > 2);
+        System.out.println(10 < 5);
+
+        int myage = 25;
+        int myfriend_age  = 20;
+        System.out.println(myage >= myfriend_age);
+
+        if (myage >= myfriend_age) {
+            System.out.println("you are bigger than your friend");
+        }else{
+            System.out.println("your friend is bigger than you");
+        }
+        //-------Java if/else------------------//
+        if (20 > 18) {
+            System.out.println("this is bigger than second number");
+        }
         
+        int time = 20;
+        if (time < 18) {
+            System.out.println("good day");
+        }else{
+            System.out.println("good evening");
+        }
+
     }
 }
