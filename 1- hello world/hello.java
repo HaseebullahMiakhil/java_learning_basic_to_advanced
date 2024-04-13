@@ -153,5 +153,13 @@ public class hello {
             System.out.println("good evening");
         }
 
+
+        if (time < 10) {
+            System.out.println("good morning");
+        }else  if( time < 19){
+            System.out.println("good day");
+        }else{
+            System.out.println("good evening");
+        }
     }
 }
