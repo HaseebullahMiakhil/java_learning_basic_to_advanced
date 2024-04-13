@@ -88,10 +88,30 @@ public class hello {
         System.out.println(xxxx);
         int xxxxx = 5%2;
         System.out.println(xxxxx);
-        
+
         ///-----------------java string-----------///
+        String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        System.out.println("the lenght of the text is" + " "+ txt.length());
+        System.out.println(txt.toUpperCase());
+        System.out.println(txt.toLowerCase());
+        System.out.println(txt.indexOf("DEFGH"));
+    
+        ///----------------string concatenation-------------///
+        String firstname = "Haseebullah";
+        String Lastname = "Miakhil";
+        System.out.println(firstname + " " + Lastname);
+        System.out.println(firstname.concat(Lastname));
 
+        ///-------- adding numbers and string -------------///
+        int a1 = 10;
+        int a2 = 20;
+        int a3 = a1 + a2;
+        System.out.println(a3);
 
+        //------special characters-----------------////
+        //    \' \" \\
 
+        //---------java math----------//
+        
     }
 }
