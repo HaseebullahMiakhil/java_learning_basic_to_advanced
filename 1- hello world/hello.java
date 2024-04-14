@@ -161,7 +161,7 @@ public class hello {
             System.out.println("good evening");
         }
         //---------java Switch-------------------//
-        int day = 6;
+        int day = 0;
         switch (day) {
             case 1:
                 System.out.println("monday");
@@ -185,6 +185,7 @@ public class hello {
                 System.out.println("Sunday");
                 break;
             default:
+                System.out.println("looking forward to the weekend");
                 break;
         }
     }
